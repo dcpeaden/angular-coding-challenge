@@ -1,0 +1,1 @@
+Create a reusable component for displaying an error message with different styles

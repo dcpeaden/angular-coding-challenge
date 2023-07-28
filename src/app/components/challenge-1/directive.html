@@ -1,0 +1,17 @@
+<!-- Implement a custom directive to highlight the text in an element -->
+<!-- Usage -->
+<p appHighlight>Text to be highlighted</p>
+
+<!-- Directive Definition -->
+import { Directive, ElementRef, Renderer2, OnInit } from '@angular/core';
+
+@Directive({
+  selector: '[appHighlight]'
+})
+export class HighlightDirective implements OnInit {
+  constructor(private el: ElementRef, private renderer: Renderer2) {}
+
+  ngOnInit() {
+    this.renderer.setStyle(this.el.nativeElement, 'background-color', 'yellow');
+  }
+}

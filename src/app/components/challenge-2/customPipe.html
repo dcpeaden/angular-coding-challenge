@@ -1,0 +1,17 @@
+<!-- Create a custom pipe for formatting dates in a specific format -->
+
+<!-- Usage -->
+<p>{{ dateValue | customDateFormat }}</p>
+
+<!-- Pipe Definition -->
+import { Pipe, PipeTransform } from '@angular/core';
+import { formatDate } from '@angular/common';
+
+@Pipe({
+  name: 'customDateFormat'
+})
+export class CustomDateFormatPipe implements PipeTransform {
+  transform(value: any): any {
+    return formatDate(value, 'dd/MM/yyyy', 'en-US');
+  }
+}

@@ -1,0 +1,1 @@
+Create a directive to dynamically resize an element based on window size changes

@@ -1,0 +1,25 @@
+.css-challenge {
+  // Change styling here
+  border: 1vmin solid;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+  font-size: 15vmin;
+  min-height: 51vmin;
+  line-height: 15vmin;
+  padding: 2vmin;
+  width: 51vmin;
+}
+
+.center-element {
+  // Style center-element css challenge
+  .parent {
+    width: 50px;
+    height: 75px;
+    border: 3px solid green;
+  }
+  .child {
+    width: 20px;
+    height: 20px;
+    background-color: red;
+  }
+}

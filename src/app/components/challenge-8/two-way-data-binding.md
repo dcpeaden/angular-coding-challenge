@@ -1,1 +1,0 @@
-Implement two-way data binding using ngModel with a custom component

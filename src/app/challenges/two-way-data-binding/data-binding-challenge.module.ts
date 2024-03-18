@@ -1,12 +1,10 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-
-
+import { DataBindingChallengeComponent } from './data-binding-challenge.component';
 
 @NgModule({
-  declarations: [],
-  imports: [
-    CommonModule
-  ]
+  declarations: [DataBindingChallengeComponent],
+  imports: [CommonModule],
+  exports: [DataBindingChallengeComponent],
 })
-export class DataBindingChallengeModule { }
+export class DataBindingChallengeModule {}

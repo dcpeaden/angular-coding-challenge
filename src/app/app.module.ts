@@ -9,7 +9,6 @@ import { ReusableErrorMessageModule } from './challenges/error-message-component
 import { DataBindingChallengeModule } from './challenges/two-way-data-binding/data-binding-challenge.module';
 import { CssChallengesModule } from './challenges/css-challenges/css-challenges.module';
 import { MaskPipe } from './challenges/custom-pipe/mask.pipe';
-import { DataDisplayComponent } from './challenges/general-challenges/data-display/data-display.component';
 import { DataDisplayModule } from './challenges/general-challenges/data-display/data-display.module';
 
 @NgModule({
